@@ -1,7 +1,245 @@
-body {
-  background-color: 3E4551;
-  font: white;
+  body {
+    background-color: rgb(0, 26, 51);
+    margin: 0%;
+    }
+
+  .body-div {
+    color: white;
+    font-size: 14px;
+    font-family: "raleway", sans-serif;
+    font-weight: 400, 700;
+    margin: 0%;
+    background-color: rgb(24, 31, 42);
+    margin-top: 165px;
+  }
+
+  .text-body-div {
+    color: white;
+    font-size: 14px;
+    font-family: "raleway", sans-serif;
+    font-weight: 400, 700;
+    margin: 1%;
+  }
+
+  .first-body-div {
+  background-color: rgb(0, 66, 128);
+  color: white;
+  font-size: 14px;
+  font-family: "raleway", sans-serif;
+  font-weight: 400, 700;
+  z-index: -1;
+
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+  .top-nav {
+    top: 0;
+    right: 1;
+    float:right;
+    margin-right: 3%;
+    margin-top: 0.5%;
+    font-size: 2em;
+  }
+
+  .features {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 1px;
+  }
+
+  .team {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 1px;
+  }
+
+  .sign-in {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 1px;
+
+  }
+
+  .header-image {
+    margin-left: 27%;
+    width: 45%;
+  }
+
+  .header-div{
+    text-align: center;
+    font-size: 1.05em;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-header {
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .get-started {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1%;
+    background-color: #00A591;
+    border: inset;
+    border-radius: 25px;
+    margin-left: 44%;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+
+
+  }
+
+  .curve-div {
+    z-index: 1;
+  }
+
+
+  .curve {
+    position: absolute;
+    z-index: 1;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 495px;
+
+  }
+
+  .first-table {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 20%;
+    line-height: 1.6;
+  }
+
+  .image-two {
+    width:40%;
+    margin-left: 5%;
+  }
+
+  .image-two-text {
+    float: right;
+    margin-right: 6%;
+    margin-top: 2%;
+  }
+
+ .fylo-works {
+   background-color: #00A591;
+   color: white;
+   font-size: 1em;
+   text-decoration: none;
+   border-radius: 25px;
+   padding: 2%;
+ }
+
+ .chats {
+   display: block;
+   padding: 20px;
+   margin-left: 10%;
+
+ }
+
+ .chat-one {
+   border-style: groove;
+   width: 25%;
+   display: inline-block;
+   padding: 1%;
+   border-radius: 5px;
+
+ }
+
+ .profile-one {
+   width: 40px;
+   border-radius: 25px;
+ }
+
+ .chat-two {
+   border-style: groove;
+   width: 25%;
+   display: inline-block;
+   margin-left: 2%;
+   padding: 1%;
+   border-radius: 5px;
+ }
+
+ .profile-two {
+   width: 40px;
+   border-radius: 25px;
+ }
+
+ .chat-three {
+   border-style: groove;
+   width: 25%;
+   display: inline-block;
+   margin-left: 2%;
+   padding: 1%;
+   border-radius: 5px;
+ }
+
+ .profile-three {
+   width: 40px;
+   border-radius: 25px;
+ }
+
+ .early-access {
+   text-align: center;
+   margin-right: 10%;
+ }
+
+ .email {
+   width: 50%;
+   height: 40px;
+   font-size: 35px;
+   font-style: italic;
+   border-radius: 25px;
+   margin-right: 8%;
+ }
+
+ .table-last {
+   width:80%;
+   margin-left: 5%;
+
+ }
+
+ .button-one {
+   color: white;
+   font-family: sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 1%;
+   background-color: #00A591;
+   border-radius: 25px;
+   border: inset;
+   margin-right: 9%;
+}
+
+.or {
+  text-align: center;
+  font-size: 4em;
+  font: white;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.button-two {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 1%;
+  background-color: #00A591;
+  border-radius: 25px;
+  border: inset;
+  margin-right: 9%;
+}
+
+.last-table {
+  padding: 5%;
+  width: 95%;
+}
